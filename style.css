@@ -10,7 +10,7 @@
     /* border: 2px solid black; */
     text-align: center;
     width: 99.5vw;
-    height: 100vh;
+    height: 99.5vh;
     box-sizing: border-box;
  }
  .slide{
@@ -57,6 +57,7 @@
     border-radius: 10px;
     display: inline-block;
     padding: 0px 10px;
+    margin-top: 5px;
     background-color: rgba(121, 121, 227, 0.481);
 }
 .cantrolbtn{
@@ -69,5 +70,8 @@
 @media screen and (max-width: 700px)  {
     .slide img{
         width:100%;
+    }
+    .slide{
+        height: 88%; 
     }
 }
